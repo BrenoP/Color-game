@@ -1,0 +1,99 @@
+main {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 3fr 2fr;
+}
+
+.infoGame {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.infoGame button {
+    background-color: #28ABF4;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+    border: 0px;
+    cursor: pointer;
+}
+
+.timeBar {
+    width: 50%;
+    height: 1rem;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.backgroundBar {
+    height: 0.9rem;
+    border-radius: 15px;
+    background-color: #28ABF4;
+}
+
+.containerTimer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.containerGame {
+    margin: 1rem 6rem 4rem 6rem;
+}
+
+.contentRules {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alignText {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 60%;
+}
+
+.contentGame {
+    padding: 1rem;
+    margin: 1rem;
+    border: 3px solid #363636;
+    border-radius: 25px;
+}
+
+.randomColor {
+    text-align: center;
+}
+
+.contentCards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    margin-top: 1rem;
+}
+
+.image {
+    cursor: pointer;
+}
+
+.color {
+    padding: 10rem;
+    font-size: 3rem;
+    color: #EEEEEE;
+    text-shadow: 0 0 3px #363636;
+    border-radius: 25px 25px 0 0;
+}
+
+.card {
+    text-align: center;
+    padding: 5rem;
+    font-size: 2rem;
+    color: #EEEEEE;
+    text-shadow: 0 0 3px #363636;
+    cursor: pointer;
+}
