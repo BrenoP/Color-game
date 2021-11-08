@@ -38,7 +38,7 @@ export default function Home() {
   }, [time, isGamePaused, gameHasBegun]);
 
   async function getColors() {
-    const resp = await axios.get("http://localhost:3000/api/randomNumber");
+    const resp = await axios.get("https://color-game-nnvv93jee-brenop.vercel.app/api/randomNumber");
     const data = await resp.data;
     setColors(data);
   }
