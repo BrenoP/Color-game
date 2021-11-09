@@ -1,34 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## O jogo
+O projeto é um jogo de cores, onde o jogador deve escolher rapidamente a cor que está escrita no card grande, isso antes que o tempo acabe.
 
-## Getting Started
+## Tecnologias
+- O jogo foi desenvolvido com NextJs, um framework para ReactJs, 
+- Para auxiliar no desenvolvimento foi utilizado o Typescript
+- Nas requisições foi utilizado o Axios
 
-First, run the development server:
+## O projeto
+Fiz o projeto com o intuito de estudar um pouco mais do ambiente NextJs, e nesse projeto quis ver principalmente como o Next trabalha 
+com uma API já integrada com o Front. O jogo é simples, mas deu pra ver muitos conceitos do Next com ele.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Sobre o projeto
+Para acessar o projeto basta acessar: [https://color-game-cyan.vercel.app/](https://color-game-cyan.vercel.app/).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Caso queira baixar o código, basta clonar o projeto com o link: [https://github.com/BrenoP/Color-game.git](https://github.com/BrenoP/Color-game.git) e após clonado rodar um 'npm install' e um 'npm run dev'.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Sobre mim
+Meu LinkedIn: [https://www.linkedin.com/in/brenoperetta/](https://www.linkedin.com/in/brenoperetta/).

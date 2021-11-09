@@ -41,24 +41,30 @@ export default function GameInfo({
                 gameHasBegun ? (
                     <>
                     {
-                        isGamePaused ? (
-                            <Image 
-                                src={play} 
-                                alt="Ícone para dar play no jogo" 
-                                className="image"
-                                onClick={() => pauseGame()}
-                                width={50}
-                                height={50}
-                            />
-                        ) : (
-                            <Image 
-                                src={pause} 
-                                alt="Ícone para pausar no jogo" 
-                                className="image"
-                                onClick={() => pauseGame()}
-                                width={50}
-                                height={50}
-                            />
+                        points < 5 && (
+                            <>
+                                {
+                                     isGamePaused ? (
+                                        <Image 
+                                            src={play} 
+                                            alt="Ícone para dar play no jogo" 
+                                            className="image"
+                                            onClick={() => pauseGame()}
+                                            width={50}
+                                            height={50}
+                                        />
+                                    ) : (
+                                        <Image 
+                                            src={pause} 
+                                            alt="Ícone para pausar no jogo" 
+                                            className="image"
+                                            onClick={() => pauseGame()}
+                                            width={50}
+                                            height={50}
+                                        />
+                                    )
+                                }
+                            </>
                         )
                     }
                         <Image 
