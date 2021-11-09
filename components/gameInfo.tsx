@@ -25,10 +25,12 @@ export default function GameInfo({
     }
     
     function pauseGame() {
-        if(isGamePaused) {
-            setIsGamePaused(false);
-        } else {
-            setIsGamePaused(true);
+        if(points < 5) {
+            if(isGamePaused) {
+                setIsGamePaused(false);
+            } else {
+                setIsGamePaused(true);
+            }
         }
     }    
 

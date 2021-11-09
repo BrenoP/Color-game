@@ -97,3 +97,15 @@ main {
     text-shadow: 0 0 3px #363636;
     cursor: pointer;
 }
+
+@media(max-width: 768px) {
+    .infoGame h1 {
+        font-size: 1.7rem;
+    }
+}
+
+@media(max-width: 600px) {
+    .contentCards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

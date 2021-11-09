@@ -28,7 +28,7 @@ export default function Home() {
         }
       }, 1000)
       if(time === 0) {
-        alert('cabooooo o tempoooo');
+        alert('Acabou o tempo!');
         setIsGameRunning(false);
       }
     }
